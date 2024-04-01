@@ -36,7 +36,12 @@ git push
 git commit --amend -m "an updated commit message"
 git push --force
 ```
-s
 
 
- 
+### Git rebase
+
+- rebase
+```
+git rebase base_branch
+```
+
