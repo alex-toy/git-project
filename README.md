@@ -12,6 +12,16 @@ git branch
 git branch new_branch
 ```
 
+- change branch but remain on the current branch
+```
+git checkout new_branch
+```
+
+- change branch and move to it immediately
+```
+git checkout -b new_branch
+```
+
 
 ### Basic Workflow
 
@@ -36,7 +46,7 @@ git push
 git commit --amend -m "an updated commit message"
 git push --force
 ```
-s
+
 
 
  
